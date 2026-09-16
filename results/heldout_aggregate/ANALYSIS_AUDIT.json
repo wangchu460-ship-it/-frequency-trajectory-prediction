@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "inputs": {
+    "absolute": "34039038d73db2c1ef489a928df743a3de1e01cdc0a448272abe53a227010958",
+    "paired": "d815d4f2623529fe6205c747596b97f019a1862a5fad145020b2a38e3e5fd08d",
+    "freeze": "5d856180b2befb3e3554a6b9b2e25d20b500fccfb38f39091a710a90f1d1cb8d"
+  },
+  "outputs": {
+    "analysis": "dcadfee97cd720ce43ea6d966071a6c4d15f3fdeb204c1b9820efb64d1345d34",
+    "core_csv": "01aac8887442fbd3c2a575a5ebf8433454af0212e83bdc68e7d584efb945b599",
+    "claims_csv": "8fbc04267763012474ab612b69bdb751f534a6ecdc5c08ec657870201035cece"
+  }
+}

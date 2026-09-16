@@ -1,0 +1,4 @@
+{
+  "exact_next_step": true,
+  "scope": "local runtime; server resume additionally requires exact saved runtime/config"
+}

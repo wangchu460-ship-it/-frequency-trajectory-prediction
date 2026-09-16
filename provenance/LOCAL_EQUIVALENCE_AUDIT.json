@@ -1,0 +1,34 @@
+[
+  {
+    "arm": "FULL",
+    "shared_initial_exact": true,
+    "loss_exact": true,
+    "finite_backward": true,
+    "gradient_norm": 0.05349108204245567,
+    "prediction_diff_from_full": 0.0
+  },
+  {
+    "arm": "NO_LAPLACIAN",
+    "shared_initial_exact": true,
+    "loss_exact": true,
+    "finite_backward": true,
+    "gradient_norm": 0.05344970524311066,
+    "prediction_diff_from_full": 5.677406443282962e-05
+  },
+  {
+    "arm": "NO_MESSAGE",
+    "shared_initial_exact": true,
+    "loss_exact": true,
+    "finite_backward": true,
+    "gradient_norm": 0.0513777881860733,
+    "prediction_diff_from_full": 0.0005667218938469887
+  },
+  {
+    "arm": "OLD_ONLY",
+    "shared_initial_exact": true,
+    "loss_exact": true,
+    "finite_backward": true,
+    "gradient_norm": 0.054041385650634766,
+    "prediction_diff_from_full": 0.0
+  }
+]

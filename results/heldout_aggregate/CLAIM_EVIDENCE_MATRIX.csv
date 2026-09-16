@@ -1,0 +1,10 @@
+﻿claim,status,evidence,boundary
+空间损失改善HIGH设备中前段差分预测,SUPPORTED_WITH_TRADEOFF,Test四主端点3项G0明确更好；BELOW_HIGH早期两系统A2明确更好,单seed；多端点名义CI
+F-message具有独立贡献,SUPPORTED_CONDITIONALLY,A4在NPCC140两项及IEEE39 2–10明确差于G0,IEEE39 0–2未确定
+F-differential具有独立贡献,NOT_SUPPORTED,A3四主端点均未明确差于G0,不能以点估计代替证据
+联合物理关系路径必要,SUPPORTED_IN_NPCC_ONLY,A5在NPCC140两项明确差于G0,IEEE39两项未确定；WECC反转
+POST关系优于PRE关系,NOT_SUPPORTED,A6四主端点均未确定,A6 e56边界未解决
+逐step系统平衡必要,NOT_SUPPORTED,A1四主端点均未确定,单seed
+G0全面优于对比模型,REJECTED,E5在NPCC140 0–2明确优于G0；多项未确定,优势具有系统和时段条件
+G0跨系统泛化优越,REJECTED,WECC多数模型/消融在8端点系统性优于G0,风险198另报；不作原因归因
+误差改善保证设备识别改善,NOT_SUPPORTED,rank/top-k在模型、系统和窗口间反转,探索性固定k=1/3/5

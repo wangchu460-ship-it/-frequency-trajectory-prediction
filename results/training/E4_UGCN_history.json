@@ -1,0 +1,602 @@
+[
+  {
+    "epoch": 1,
+    "loss": 9.309000147344811,
+    "system_loss_mean": {
+      "IEEE39": 7.030544915590036,
+      "NPCC140": 11.587455316855971
+    },
+    "seconds": 197.0257294178009,
+    "batch_order_sha256": "24d963f4bbcaffeb02f03de8ce678c06b7e9d00900508a8934d1998b50503a10"
+  },
+  {
+    "epoch": 2,
+    "loss": 5.170778783376195,
+    "system_loss_mean": {
+      "IEEE39": 4.783455651117888,
+      "NPCC140": 5.558101924943072
+    },
+    "seconds": 192.87154245376587,
+    "batch_order_sha256": "bd7bfa6fce0ada05e90d0a978f7476407b9aa12459ac40030a33aa4481a1f484"
+  },
+  {
+    "epoch": 3,
+    "loss": 3.7946966527756305,
+    "system_loss_mean": {
+      "IEEE39": 3.5461396189936036,
+      "NPCC140": 4.0432536987986945
+    },
+    "seconds": 195.7983431816101,
+    "batch_order_sha256": "df1b1b950e1b7356db7dd4af7eba9d7da69d3731f2dfdee57615867db4167b4a"
+  },
+  {
+    "epoch": 4,
+    "loss": 3.229460555122899,
+    "system_loss_mean": {
+      "IEEE39": 3.213800104670892,
+      "NPCC140": 3.245121016677469
+    },
+    "seconds": 195.8167850971222,
+    "batch_order_sha256": "a0493b2a81114b2ac820b7a5bc8ec6641df0c777dde33cd7d7a7fc4115488e2d"
+  },
+  {
+    "epoch": 5,
+    "loss": 2.7740867031224603,
+    "system_loss_mean": {
+      "IEEE39": 3.0702010604763137,
+      "NPCC140": 2.477972351681042
+    },
+    "seconds": 190.19900918006897,
+    "batch_order_sha256": "52040419e1384594ad4b1f5611bc8665b571304469b652be632feedf55b52290"
+  },
+  {
+    "epoch": 6,
+    "loss": 2.417840455610305,
+    "system_loss_mean": {
+      "IEEE39": 3.000047756181764,
+      "NPCC140": 1.835633146598669
+    },
+    "seconds": 190.4599530696869,
+    "batch_order_sha256": "96e1972bdea2bb67d7f8c0e6910bd45bd64b4b7c47701d54d5d798988725f7e6"
+  },
+  {
+    "epoch": 7,
+    "loss": 2.2470328855969544,
+    "system_loss_mean": {
+      "IEEE39": 2.8263141597457495,
+      "NPCC140": 1.6677516012710651
+    },
+    "seconds": 187.78984451293945,
+    "batch_order_sha256": "f35ce218c22327c7713bc5e7c088c3d849a7a7a4ad7042190404150a69cee0a7"
+  },
+  {
+    "epoch": 8,
+    "loss": 2.1163694452885538,
+    "system_loss_mean": {
+      "IEEE39": 2.83145937366451,
+      "NPCC140": 1.4012795231420814
+    },
+    "seconds": 192.3092484474182,
+    "batch_order_sha256": "88d316c78c92dda8dba024018ee5e72415f6ac6d613b8e65ba90b5c5c98ae5c5"
+  },
+  {
+    "epoch": 9,
+    "loss": 1.8885036961359771,
+    "system_loss_mean": {
+      "IEEE39": 2.5932461642034883,
+      "NPCC140": 1.1837612274362306
+    },
+    "seconds": 192.43647980690002,
+    "batch_order_sha256": "7ec217e8fed58ecdd7abec8f296acdaef1f3d4e2b5aa82e50d1a8dc559d3c475"
+  },
+  {
+    "epoch": 10,
+    "loss": 1.8145568788519928,
+    "system_loss_mean": {
+      "IEEE39": 2.4246371554905948,
+      "NPCC140": 1.204476609703619
+    },
+    "seconds": 195.24357843399048,
+    "batch_order_sha256": "dac5cc10f54800f30b9dc1ebbd7ebab1800fb16f36cb4d231f6ec0c36cbb8c3a"
+  },
+  {
+    "epoch": 11,
+    "loss": 1.7847731610704214,
+    "system_loss_mean": {
+      "IEEE39": 2.398355320002551,
+      "NPCC140": 1.1711910120403128
+    },
+    "seconds": 192.689110994339,
+    "batch_order_sha256": "f0b13561c6e7e7d4b029afb070171ec0263496e704a6ec6861f37c2c9d9c814a"
+  },
+  {
+    "epoch": 12,
+    "loss": 1.6920202742309443,
+    "system_loss_mean": {
+      "IEEE39": 2.381732482400523,
+      "NPCC140": 1.0023080630708219
+    },
+    "seconds": 194.30485081672668,
+    "batch_order_sha256": "4a6a922b56876d5c97aac7ab758bfa804ecc8c3310cdcd3e01f6a4594f61b19d"
+  },
+  {
+    "epoch": 13,
+    "loss": 1.6279091469275633,
+    "system_loss_mean": {
+      "IEEE39": 2.321147716136982,
+      "NPCC140": 0.9346705680508832
+    },
+    "seconds": 193.26291632652283,
+    "batch_order_sha256": "2425de89997b092fecdaf8242b1d58d642f6d23ffca4267332426622e7d68b80"
+  },
+  {
+    "epoch": 14,
+    "loss": 1.5833803481534123,
+    "system_loss_mean": {
+      "IEEE39": 2.2470897866852715,
+      "NPCC140": 0.9196709212590275
+    },
+    "seconds": 196.25325751304626,
+    "batch_order_sha256": "10afb9e4ac38f17407c938894a2e78d8c8885091fc3e5855c28f2eef91270f8f"
+  },
+  {
+    "epoch": 15,
+    "loss": 1.4508007665735536,
+    "system_loss_mean": {
+      "IEEE39": 2.1475536659636667,
+      "NPCC140": 0.7540478614957871
+    },
+    "seconds": 198.8796272277832,
+    "batch_order_sha256": "d3447aabb71bc82310881528688889954070e4bc22979bb572789946fd1d28a8"
+  },
+  {
+    "epoch": 16,
+    "loss": 1.398300054504403,
+    "system_loss_mean": {
+      "IEEE39": 2.041803756368945,
+      "NPCC140": 0.7547963582220754
+    },
+    "seconds": 192.8206808567047,
+    "batch_order_sha256": "b61b1d9832c79295c9586d3feb993afe90924c0c7c5a802fcb7d13cee59ef15d"
+  },
+  {
+    "epoch": 17,
+    "loss": 1.3050270894233669,
+    "system_loss_mean": {
+      "IEEE39": 1.927792030027868,
+      "NPCC140": 0.6822621413278394
+    },
+    "seconds": 196.1087920665741,
+    "batch_order_sha256": "81b9642bf745512889d7431ac3fc94afed72cf0c32828c520130eae30054200c"
+  },
+  {
+    "epoch": 18,
+    "loss": 1.321613452432012,
+    "system_loss_mean": {
+      "IEEE39": 2.039085639523475,
+      "NPCC140": 0.6041412743355281
+    },
+    "seconds": 197.03835535049438,
+    "batch_order_sha256": "16130a327b6eebc6488d0c85f620ea939ea19cb88ea10d7dd494fcedb711d339"
+  },
+  {
+    "epoch": 19,
+    "loss": 1.332536021567349,
+    "system_loss_mean": {
+      "IEEE39": 1.9910550687182695,
+      "NPCC140": 0.6740169729607046
+    },
+    "seconds": 197.21649050712585,
+    "batch_order_sha256": "9bc57fe0d4bb3742309af0247ccb0932cef5b3b2787bbe92fe9efe058b30dcd1"
+  },
+  {
+    "epoch": 20,
+    "loss": 1.2815835535371942,
+    "system_loss_mean": {
+      "IEEE39": 1.9328112260034707,
+      "NPCC140": 0.6303558860432822
+    },
+    "seconds": 193.95281744003296,
+    "batch_order_sha256": "3ac0e8f19840d0eb3b4b2ddd1746f83d8ddf1db46f065b02373847a932ec3a9d"
+  },
+  {
+    "epoch": 21,
+    "loss": 1.2423432891473973,
+    "system_loss_mean": {
+      "IEEE39": 1.8536204184940017,
+      "NPCC140": 0.63106616252082
+    },
+    "seconds": 196.3477795124054,
+    "batch_order_sha256": "63c996532e6b43c0d92ec6cf03ab1cf86f5c265abcb7291224606364bb96a43e"
+  },
+  {
+    "epoch": 22,
+    "loss": 1.2470772607890623,
+    "system_loss_mean": {
+      "IEEE39": 1.92248767662361,
+      "NPCC140": 0.5716668413674925
+    },
+    "seconds": 195.6295964717865,
+    "batch_order_sha256": "5f6165871d97f3d8d5056af6852816a59ad736c2b3d8e2e52017bb10e98ce5d6"
+  },
+  {
+    "epoch": 23,
+    "loss": 1.1386544376345618,
+    "system_loss_mean": {
+      "IEEE39": 1.7643677569328409,
+      "NPCC140": 0.5129411170257122
+    },
+    "seconds": 197.40680527687073,
+    "batch_order_sha256": "b9df4bc1d55f3959944fff740f21868d54963cd2cb99eae7f6ff3c3cb186b486"
+  },
+  {
+    "epoch": 24,
+    "loss": 1.1168256785550288,
+    "system_loss_mean": {
+      "IEEE39": 1.700492052610631,
+      "NPCC140": 0.5331593079354747
+    },
+    "seconds": 194.91381525993347,
+    "batch_order_sha256": "e6f0e02cc3cfc4e379b58532e2211e4635263aca3ceb1955614e3bcbf214e61a"
+  },
+  {
+    "epoch": 25,
+    "loss": 1.1655314975452742,
+    "system_loss_mean": {
+      "IEEE39": 1.7591489711653974,
+      "NPCC140": 0.5719140219380414
+    },
+    "seconds": 193.13438177108765,
+    "batch_order_sha256": "3cf8918d0e5675a4510eb48ab7a8fcd80a0c171b070cd2e50e733602c2d0e583"
+  },
+  {
+    "epoch": 26,
+    "loss": 1.0889368260375092,
+    "system_loss_mean": {
+      "IEEE39": 1.6652803552726483,
+      "NPCC140": 0.5125933049123934
+    },
+    "seconds": 191.99440813064575,
+    "batch_order_sha256": "627c3273ad1dedc23420e221b3d5b10fe80404223e3a72b5894d7098b21fdf5f"
+  },
+  {
+    "epoch": 27,
+    "loss": 1.05647366020283,
+    "system_loss_mean": {
+      "IEEE39": 1.6307001258384968,
+      "NPCC140": 0.4822471857823631
+    },
+    "seconds": 190.59164261817932,
+    "batch_order_sha256": "1d5b33f5e314997ff73ec4dcc051a4d6ae00e871c290d0bfcf7c5d2b4502ed33"
+  },
+  {
+    "epoch": 28,
+    "loss": 1.036624268299767,
+    "system_loss_mean": {
+      "IEEE39": 1.5598195738085279,
+      "NPCC140": 0.5134289623314647
+    },
+    "seconds": 195.25360345840454,
+    "batch_order_sha256": "57b2efc7b91b97eabde406d4997feb445dd52ce8dbd873263438d15efef20375"
+  },
+  {
+    "epoch": 29,
+    "loss": 1.1030029939490238,
+    "system_loss_mean": {
+      "IEEE39": 1.7285785533631486,
+      "NPCC140": 0.47742743254319897
+    },
+    "seconds": 198.34773349761963,
+    "batch_order_sha256": "5c6e7dadced7017a106876c071dd613ccf9f32cdb300e915270b903ccaa985ea"
+  },
+  {
+    "epoch": 30,
+    "loss": 0.9904260917989803,
+    "system_loss_mean": {
+      "IEEE39": 1.5242857581801446,
+      "NPCC140": 0.45656642685551196
+    },
+    "seconds": 195.86845898628235,
+    "batch_order_sha256": "c721ca68d0d35064aa2920a6378170652a5e0ad71f8810ef31b7c9793dc29a54"
+  },
+  {
+    "epoch": 31,
+    "loss": 1.0043421330313598,
+    "system_loss_mean": {
+      "IEEE39": 1.5581425297518727,
+      "NPCC140": 0.45054173458048274
+    },
+    "seconds": 197.1936640739441,
+    "batch_order_sha256": "227a5cbbebe27ad45c405f7a4f8a355e79b6ce022a8f7423ea79738906b78b20"
+  },
+  {
+    "epoch": 32,
+    "loss": 0.9825640453717538,
+    "system_loss_mean": {
+      "IEEE39": 1.5206335231003218,
+      "NPCC140": 0.44449457220207633
+    },
+    "seconds": 197.04784774780273,
+    "batch_order_sha256": "95438549007d59caa6831309b3350f189d73f510dca2afc8a6f2437d960814fe"
+  },
+  {
+    "epoch": 33,
+    "loss": 1.0230016220516658,
+    "system_loss_mean": {
+      "IEEE39": 1.6016920788343996,
+      "NPCC140": 0.44431115798765264
+    },
+    "seconds": 197.04997730255127,
+    "batch_order_sha256": "572d7fff822207e70b0cb64b81b8507b084b15615168df9bc61ba73042bc6e21"
+  },
+  {
+    "epoch": 34,
+    "loss": 1.029009963585862,
+    "system_loss_mean": {
+      "IEEE39": 1.6292029546270412,
+      "NPCC140": 0.42881697482782016
+    },
+    "seconds": 194.97813296318054,
+    "batch_order_sha256": "41c7008f23052fc8975b3335a877528b1eb12fdf0577f25ff125687303fe7b71"
+  },
+  {
+    "epoch": 35,
+    "loss": 1.00012418133832,
+    "system_loss_mean": {
+      "IEEE39": 1.5715731585907884,
+      "NPCC140": 0.4286751969044895
+    },
+    "seconds": 193.67527747154236,
+    "batch_order_sha256": "107a434ef20711072d057e65c106591d324387d92317704668109ae8c8675d85"
+  },
+  {
+    "epoch": 36,
+    "loss": 0.9477145244817117,
+    "system_loss_mean": {
+      "IEEE39": 1.470914741864295,
+      "NPCC140": 0.4245142978582132
+    },
+    "seconds": 192.68982982635498,
+    "batch_order_sha256": "384e13b0017aa4916c6984f2678f0ef54e7c82695682caa52432e247a631aa82"
+  },
+  {
+    "epoch": 37,
+    "loss": 0.9639408220716619,
+    "system_loss_mean": {
+      "IEEE39": 1.5307814826472397,
+      "NPCC140": 0.3971001549715043
+    },
+    "seconds": 193.99627494812012,
+    "batch_order_sha256": "22172d3ac32bcb6a379391f42e847e3dc8cd92588f80ebbd9559eb1ff7996adb"
+  },
+  {
+    "epoch": 38,
+    "loss": 0.9513222673844014,
+    "system_loss_mean": {
+      "IEEE39": 1.4719300500463828,
+      "NPCC140": 0.43071448448446714
+    },
+    "seconds": 195.56336665153503,
+    "batch_order_sha256": "c75e29639ebfc720f77df0551406f7965e12a2b19872d8616c30535120fbc777"
+  },
+  {
+    "epoch": 39,
+    "loss": 0.9968433491537081,
+    "system_loss_mean": {
+      "IEEE39": 1.5798326617293725,
+      "NPCC140": 0.41385404323453884
+    },
+    "seconds": 194.16676449775696,
+    "batch_order_sha256": "ab722741297c173da87c6c0617dbc240490a7d22ea8ae4836e4901f818866936"
+  },
+  {
+    "epoch": 40,
+    "loss": 0.9593289405503975,
+    "system_loss_mean": {
+      "IEEE39": 1.503427121655949,
+      "NPCC140": 0.41523076532754516
+    },
+    "seconds": 193.1011176109314,
+    "batch_order_sha256": "237bd517364e35bfc1967398a559025fb71dde04cdf8e2eea0f8f93319713921"
+  },
+  {
+    "epoch": 41,
+    "loss": 0.915883792934141,
+    "system_loss_mean": {
+      "IEEE39": 1.4489483800052132,
+      "NPCC140": 0.3828191942037083
+    },
+    "seconds": 192.82237768173218,
+    "batch_order_sha256": "48cd80231c5a25097ddf99611e5e1924dcb8482938dff18712e23658832d9d91"
+  },
+  {
+    "epoch": 42,
+    "loss": 0.9737299746527736,
+    "system_loss_mean": {
+      "IEEE39": 1.543530583422498,
+      "NPCC140": 0.4039293662011623
+    },
+    "seconds": 191.40886306762695,
+    "batch_order_sha256": "a0020e7d4abfa54f59e990b84841f628cce652be6c75e361927c071fda602ea8"
+  },
+  {
+    "epoch": 43,
+    "loss": 0.8921113882551768,
+    "system_loss_mean": {
+      "IEEE39": 1.4135770348101588,
+      "NPCC140": 0.3706457334511381
+    },
+    "seconds": 192.24357414245605,
+    "batch_order_sha256": "ac1b306ede1943cc97797e552362de8d4861a7329cca932584fbb16a4fb3abbf"
+  },
+  {
+    "epoch": 44,
+    "loss": 0.8788290816045233,
+    "system_loss_mean": {
+      "IEEE39": 1.3808054020467346,
+      "NPCC140": 0.3768527573700329
+    },
+    "seconds": 193.25514936447144,
+    "batch_order_sha256": "4c81fb9ab95124b43bea22658e885fc289177ac772c42f8a4bb9495953ae34c6"
+  },
+  {
+    "epoch": 45,
+    "loss": 0.8955803094737764,
+    "system_loss_mean": {
+      "IEEE39": 1.4157211013190847,
+      "NPCC140": 0.3754395231935861
+    },
+    "seconds": 191.22721099853516,
+    "batch_order_sha256": "fbc649f4b9a2a81988263fead096c6070345b9760b6e352107c4f64afc327f1d"
+  },
+  {
+    "epoch": 46,
+    "loss": 0.9228822862293039,
+    "system_loss_mean": {
+      "IEEE39": 1.4694120725908184,
+      "NPCC140": 0.37635249927912706
+    },
+    "seconds": 188.31402730941772,
+    "batch_order_sha256": "affc03594e2c471c5b81dfe612a5a4ffba37642656c72546893a2e2ad2fc47a6"
+  },
+  {
+    "epoch": 47,
+    "loss": 0.8823238542286147,
+    "system_loss_mean": {
+      "IEEE39": 1.404869992210796,
+      "NPCC140": 0.35977771585401414
+    },
+    "seconds": 189.99418091773987,
+    "batch_order_sha256": "1a224872bdb87f26ca9f834c480f0b9a92c989813bcce7fb72e11c8c740b67eb"
+  },
+  {
+    "epoch": 48,
+    "loss": 0.890000217370955,
+    "system_loss_mean": {
+      "IEEE39": 1.4270109576715622,
+      "NPCC140": 0.3529894839710822
+    },
+    "seconds": 192.52703404426575,
+    "batch_order_sha256": "d37c38540c725af78fc77ab93b8854886562457ec2e4de826fa87574a0dcde04"
+  },
+  {
+    "epoch": 49,
+    "loss": 0.8961444545633026,
+    "system_loss_mean": {
+      "IEEE39": 1.4357221537288278,
+      "NPCC140": 0.35656674973606794
+    },
+    "seconds": 194.64481854438782,
+    "batch_order_sha256": "e46716e5d2ed293ef5d28b129173e150703022bd57ea226ed4d2812a76e8f633"
+  },
+  {
+    "epoch": 50,
+    "loss": 0.8628404200383063,
+    "system_loss_mean": {
+      "IEEE39": 1.3555395331918927,
+      "NPCC140": 0.3701413140357472
+    },
+    "seconds": 192.43700695037842,
+    "batch_order_sha256": "a17062016d5f73dcc4eaf761cccc6cdffc89c5ea0bf1846d348cf22b90081b6e"
+  },
+  {
+    "epoch": 51,
+    "loss": 0.8853054382715907,
+    "system_loss_mean": {
+      "IEEE39": 1.4326143987909226,
+      "NPCC140": 0.33799647835342744
+    },
+    "seconds": 195.54050207138062,
+    "batch_order_sha256": "fb92c85eed6ec0f613e6646be313cc84d4b910cb8ed31cd407237c24da87e84d"
+  },
+  {
+    "epoch": 52,
+    "loss": 0.8739971060609178,
+    "system_loss_mean": {
+      "IEEE39": 1.41162556544219,
+      "NPCC140": 0.3363686362842231
+    },
+    "seconds": 195.44289183616638,
+    "batch_order_sha256": "37cd5ffee787693e63cbcde09b78506b7d709540dcb77a282d82eedd56211f0a"
+  },
+  {
+    "epoch": 53,
+    "loss": 0.8872964783489837,
+    "system_loss_mean": {
+      "IEEE39": 1.4224271326771538,
+      "NPCC140": 0.35216582901802446
+    },
+    "seconds": 197.4662230014801,
+    "batch_order_sha256": "d6e3906ac3227ed2a9eae18e10d8106835a9d82a59e7ffbedf59a219eb1b69c6"
+  },
+  {
+    "epoch": 54,
+    "loss": 0.8460344420953521,
+    "system_loss_mean": {
+      "IEEE39": 1.3555960578657023,
+      "NPCC140": 0.33647282721275196
+    },
+    "seconds": 194.44089794158936,
+    "batch_order_sha256": "02c18ccd9f53a5ae4058ad75e8ce79b50d863cd405caedc78bf4f4b4b2e523c5"
+  },
+  {
+    "epoch": 55,
+    "loss": 0.9202131752119,
+    "system_loss_mean": {
+      "IEEE39": 1.5084836177938685,
+      "NPCC140": 0.3319427290387186
+    },
+    "seconds": 197.5487515926361,
+    "batch_order_sha256": "c3c35555d1f00510155a42e1936fa314b545741b1b889d9fbba20a31087a14ad"
+  },
+  {
+    "epoch": 56,
+    "loss": 0.8380990943117067,
+    "system_loss_mean": {
+      "IEEE39": 1.3614882596461435,
+      "NPCC140": 0.3147099227283948
+    },
+    "seconds": 194.35949754714966,
+    "batch_order_sha256": "afd0124966c04b97036b18216c31589cd9d1e6ff189f7a9136a314727c31536f"
+  },
+  {
+    "epoch": 57,
+    "loss": 0.8605762766917635,
+    "system_loss_mean": {
+      "IEEE39": 1.4020902340439414,
+      "NPCC140": 0.31906231901023
+    },
+    "seconds": 194.59852957725525,
+    "batch_order_sha256": "e934b4394d7ca6b54e17cdc30b6aa4cf8a9f3db77614b6e0aec5109440e33dac"
+  },
+  {
+    "epoch": 58,
+    "loss": 0.8066009682621806,
+    "system_loss_mean": {
+      "IEEE39": 1.3076654797296172,
+      "NPCC140": 0.3055364551538868
+    },
+    "seconds": 196.1958203315735,
+    "batch_order_sha256": "840ff6bae4185b0a463f849b1513260903a4669767b2e02031062a53cd881ab0"
+  },
+  {
+    "epoch": 59,
+    "loss": 0.8405730133708567,
+    "system_loss_mean": {
+      "IEEE39": 1.3485379287076982,
+      "NPCC140": 0.3326080857758144
+    },
+    "seconds": 198.14931082725525,
+    "batch_order_sha256": "dc10da5dc4b0a5fa988589712b2433e5dc4d072503f2038f0a9dc105f25df396"
+  },
+  {
+    "epoch": 60,
+    "loss": 0.8333816903249494,
+    "system_loss_mean": {
+      "IEEE39": 1.3379205330120665,
+      "NPCC140": 0.3288428467784875
+    },
+    "seconds": 195.88504552841187,
+    "batch_order_sha256": "9a87a5722b925094b7b3804950677ff8abe3c2abcc7ac56c907e26052e0b5bd1"
+  }
+]

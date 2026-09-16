@@ -1,0 +1,38 @@
+{
+  "freeze_sha256": "5d856180b2befb3e3554a6b9b2e25d20b500fccfb38f39091a710a90f1d1cb8d",
+  "test_manifest_sha256": "c05cea8914480b4cae54f748dfb1edf22f2259b7c93be8108461db2c426d5961",
+  "wecc_manifest_sha256": "7ae7a1a152c035fb0fc95cb24d5acb5fe8e158a7a7abdfb31cfcbc4109f4e13d",
+  "normalization_sha256": "f4bb33349bc7a7a229e93628f5609c96d4cbe06e3be112723aeff36acb3c3a5d",
+  "test_primary": "ALL 1000; D3 retained",
+  "wecc_primary": "1402 ordinary trajectory usable; 198 risk separate",
+  "wecc_high": null,
+  "source_high": {
+    "IEEE39": 0.0184240117377,
+    "NPCC140": 0.012875054017
+  },
+  "top_k": [
+    1,
+    3,
+    5
+  ],
+  "ranking": "centered trajectory RMS within each window; deterministic device-index ties",
+  "bootstrap": "10000 prospective-group paired resamples; scene means before group means; nominal endpoint-wise 95% CI",
+  "windows": {
+    "full": [
+      0,
+      30
+    ],
+    "0_2": [
+      0,
+      2
+    ],
+    "2_10": [
+      2,
+      10
+    ],
+    "10_30": [
+      10,
+      30
+    ]
+  }
+}

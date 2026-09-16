@@ -1,0 +1,14 @@
+{
+  "fit_split": "train",
+  "fit_n_samples": 7000,
+  "branch_directed_rows": 1946936,
+  "branch_gb_mean": [
+    5.149473880825298,
+    -55.93692595809546
+  ],
+  "branch_gb_std": [
+    9.879970712437744,
+    82.38440769145411
+  ],
+  "status_policy": "status_post==1 branches only; status channel retained as 1"
+}

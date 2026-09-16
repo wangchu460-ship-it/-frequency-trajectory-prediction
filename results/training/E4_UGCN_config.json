@@ -1,0 +1,43 @@
+{
+  "version": "PAPER_FORMAL_ABLATION_AND_BASELINES_V1",
+  "arm": "E4_UGCN",
+  "seed": 789,
+  "batch_size": 8,
+  "sampler": "strict_4_plus_4",
+  "train_counts": {
+    "IEEE39": 3500,
+    "NPCC140": 3500
+  },
+  "optimizer_steps_per_epoch": 875,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1.0,
+  "precision": "FP32",
+  "scheduler": null,
+  "lambda_spatial": 1.7879867681635668,
+  "loss_windows": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      15
+    ]
+  ],
+  "relation": "POST_F",
+  "initialization": "architecture-specific torch seed 789",
+  "target_normalization": 0.3178332926787874,
+  "validation_n": 1000,
+  "selection": "frozen V2 U5 rule after e60; conditional +10 to max e80",
+  "parameter_counts": {
+    "trainable": 1598725,
+    "frozen": 0,
+    "buffers": 0
+  },
+  "initial_seed789_sha256": "86ebf3f9e795534404b0e1a5c2a7b94d262ca16970b62fb53a17c5adfc215704",
+  "physical_artifact_audit_sha256": "8708f2327baa49857cf7436bfab96c00d0b06defe1429b76928bfdb523968ade",
+  "test_reads": 0,
+  "ood_reads": 0,
+  "wecc_reads": 0
+}

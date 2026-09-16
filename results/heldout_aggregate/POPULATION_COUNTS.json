@@ -1,0 +1,12 @@
+{
+  "test_labels": {
+    "EXPLICIT_D3": 272,
+    "LABELED_NON_D3": 287,
+    "UNLABELED": 441
+  },
+  "wecc_strata": {
+    "FULL_TRAJECTORY_USABLE": 935,
+    "MASKED_TRAJECTORY_USABLE": 467,
+    "PHYSICAL_RISK_DIAGNOSTIC_ONLY": 198
+  }
+}

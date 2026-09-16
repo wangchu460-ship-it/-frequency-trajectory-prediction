@@ -1,0 +1,54 @@
+{
+  "status": "PHYSICAL_INPUT_ARTIFACT_PASS",
+  "samples": 8000,
+  "train": 7000,
+  "validation": 1000,
+  "systems": {
+    "IEEE39": 4000,
+    "NPCC140": 4000
+  },
+  "base_hash_pass": 8000,
+  "base_hash_frozen_available": 5079,
+  "base_hash_frozen_absent": 2921,
+  "topology_hash_pass": 8000,
+  "topology_hash_frozen_available": 5079,
+  "topology_hash_frozen_absent": 2921,
+  "frozen_lineage_fallback": 2921,
+  "authoritative_branch_rows": 1116000,
+  "active_branch_rows": 1112538,
+  "parallel_extra_rows": 32000,
+  "transformer_rows": 44000,
+  "tripped_rows": 3462,
+  "loaded_base_keys": [
+    "Y_post",
+    "bus",
+    "bus_ids",
+    "edge_features",
+    "edge_index"
+  ],
+  "forbidden_base_keys_accessed": [],
+  "forbidden_keys_declared": [
+    "df",
+    "frequency_target",
+    "frequency_target_mask",
+    "t",
+    "x"
+  ],
+  "test_reads": 0,
+  "ood_reads": 0,
+  "wecc_reads": 0,
+  "normalization": {
+    "fit_split": "train",
+    "fit_n_samples": 7000,
+    "branch_directed_rows": 1946936,
+    "branch_gb_mean": [
+      5.149473880825298,
+      -55.93692595809546
+    ],
+    "branch_gb_std": [
+      9.879970712437744,
+      82.38440769145411
+    ],
+    "status_policy": "status_post==1 branches only; status channel retained as 1"
+  }
+}

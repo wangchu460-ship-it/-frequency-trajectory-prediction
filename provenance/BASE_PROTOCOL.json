@@ -1,0 +1,35 @@
+{
+  "arms": [
+    "BASE",
+    "SLOW",
+    "FAST"
+  ],
+  "seed": 789,
+  "batch": 8,
+  "epochs": 6,
+  "train": 7000,
+  "validation": 1000,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "clip": 1.0,
+  "precision": "FP32",
+  "scheduler": null,
+  "loss": "OLD + lambda*(0-2 high-device spatial + 2-15 high-device spatial)/2",
+  "window_quadrature": "strict clipped time-grid trapezoid; ineligible scenarios contribute zero",
+  "target_rms_hz": 0.3178332926787874,
+  "lambda_early": 1.7879867681635668,
+  "thresholds": {
+    "absolute_IEEE39": 0.27592902618694226,
+    "absolute_NPCC140": 0.052865856763521596,
+    "spatial_IEEE39": 0.0184240117377323,
+    "spatial_NPCC140": 0.012875054016974774
+  },
+  "initial_sha256": "89c639994a2e86dc6d529a1f344edf2e66a3e0cd65768b13317c6ae6e36493db",
+  "data_lock": "1885e11bca3d561b08020ba5fde0ecb5a8fc46b3b61e1a9e78673c2f4db0541e",
+  "control_index": "c88197ea6bc8a06b0c55071e9590efcbd6875db1380afaa2d782e8e5f2ccc15c",
+  "script_sha256": "7a39e472b55113cb78e4ce8a074f1bf84832640a070eba3b7e2ef391e88664a4",
+  "test_reads": 0,
+  "ood_reads": 0,
+  "wecc_reads": 0,
+  "selection": "full epoch curves; epoch6 matched endpoint primary, best per metric diagnostic only"
+}

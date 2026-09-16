@@ -1,0 +1,4 @@
+{
+  "maximum_absolute_identity_residual": 7.105427357601002e-15,
+  "scope": "G0 and A5; explanatory MSE decomposition, not sum of frozen RMSE endpoints"
+}

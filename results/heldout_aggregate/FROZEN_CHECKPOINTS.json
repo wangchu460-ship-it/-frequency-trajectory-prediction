@@ -1,0 +1,417 @@
+{
+  "frozen_at": "2026-09-12T23:56:06.846845+08:00",
+  "reference": {
+    "IEEE39_0_2": 0.11887778015473238,
+    "IEEE39_2_10": 0.04393542913471328,
+    "NPCC140_0_2": 0.05726787790138924,
+    "NPCC140_2_10": 0.04330700979827828
+  },
+  "horizon": 60,
+  "rule": "Lexicographic min (U5, M5, center S_HIGH, epoch); centers 3..58",
+  "disclosure": "V1 held-out results were already inspected; this freeze precedes V2 inference. No claim of globally unseen held-out data.",
+  "models": {
+    "G0_BALANCED": {
+      "epoch": 53,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\xinF\\CROSS_SYSTEM_BALANCE_AND_EVIDENCE_V1_RUNS\\G0_BALANCED\\epoch_053_model.pt",
+      "checkpoint_sha256": "4c61eee32611eb8f63c5efbef92b2821482fd4c2ee54583ef88dcb3195d00a2a",
+      "raw_best_epoch": 58,
+      "window_epochs": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "window_S_HIGH": [
+        0.8923186182896574,
+        0.885335478765384,
+        0.8964739875823643,
+        0.8473300866167278,
+        0.8443165244384785
+      ],
+      "U5": 0.8964739875823643,
+      "M5": 0.8731549391385224,
+      "STD5": 0.022618432017801702,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.11091591242067043,
+        "IEEE39_2_10": 0.05326999719971149,
+        "NPCC140_0_2": 0.04462310804060812,
+        "NPCC140_2_10": 0.02863505028646881
+      },
+      "boundary_status": "NOT_AT_BOUNDARY",
+      "summary_sha256": "fab534310dc0ae065d2ee7bd00b6b7925c615b618fefafbdbdebea844f54f84f"
+    },
+    "A1_NO_BALANCE": {
+      "epoch": 53,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\A1_NO_BALANCE\\epoch_053_model.pt",
+      "checkpoint_sha256": "6f7ec96bb901236fd8ccc21f054f05776f548ae82eb622b5558a04c1156313f0",
+      "raw_best_epoch": 55,
+      "window_epochs": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "window_S_HIGH": [
+        0.9041464637285295,
+        0.8922527211747999,
+        0.9220479973464026,
+        0.9120058634913457,
+        0.8643182404926972
+      ],
+      "U5": 0.9220479973464026,
+      "M5": 0.8989542572467549,
+      "STD5": 0.01987555537746998,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.11389381912825874,
+        "IEEE39_2_10": 0.05406626111109498,
+        "NPCC140_0_2": 0.046296744349678225,
+        "NPCC140_2_10": 0.029929829647427946
+      },
+      "boundary_status": "NOT_AT_BOUNDARY",
+      "summary_sha256": "3ecc8a9f06017f2bc59da81f83fa149ff761d205155b4d3626fb600144c735e2"
+    },
+    "A2_NO_SPATIAL": {
+      "epoch": 32,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\A2_NO_SPATIAL\\epoch_032_model.pt",
+      "checkpoint_sha256": "7e2dde9c6e34c58edf6ef98e3d9b358e73fefba71ed3c54825248908908eff1b",
+      "raw_best_epoch": 54,
+      "window_epochs": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "window_S_HIGH": [
+        0.9540916536192181,
+        0.9644383825922382,
+        0.9723596948180677,
+        0.9569269635786793,
+        0.9877655584043303
+      ],
+      "U5": 0.9877655584043303,
+      "M5": 0.9671164506025068,
+      "STD5": 0.012120398454239043,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.1261791741988029,
+        "IEEE39_2_10": 0.05899650079970403,
+        "NPCC140_0_2": 0.05007626598939861,
+        "NPCC140_2_10": 0.026451824417542433
+      },
+      "boundary_status": "NOT_AT_BOUNDARY",
+      "summary_sha256": "4166fbed8523f51a83d8b6711ab398e71409453337d3eb65a3b427cced73ece8"
+    },
+    "A3_F_ONLY": {
+      "epoch": 44,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\A3_F_ONLY\\epoch_044_model.pt",
+      "checkpoint_sha256": "a77a264cf0ef95e72bfa3e49b7f870e8bcbbf6a5ad3849a9dd62c0ca7066c882",
+      "raw_best_epoch": 57,
+      "window_epochs": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "window_S_HIGH": [
+        0.8995681914039744,
+        0.8883646284314283,
+        0.8703194501285436,
+        0.8669823538975646,
+        0.8703088730810281
+      ],
+      "U5": 0.8995681914039744,
+      "M5": 0.8791086993885079,
+      "STD5": 0.012696449397684611,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.11267939840411409,
+        "IEEE39_2_10": 0.05518355717522801,
+        "NPCC140_0_2": 0.047235219380254066,
+        "NPCC140_2_10": 0.019600399650299156
+      },
+      "boundary_status": "NOT_AT_BOUNDARY",
+      "summary_sha256": "9da507318ac0c1f45999c573a3d5998b4853cfc216c5879ba281e95c612ea1a4"
+    },
+    "A4_L_ONLY": {
+      "epoch": 26,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\A4_L_ONLY\\epoch_026_model.pt",
+      "checkpoint_sha256": "5b8b4952110dddf9bd912d55e8ebfb62076cd6c61c3ffbb664e02a92ac6fe30c",
+      "raw_best_epoch": 4,
+      "window_epochs": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "window_S_HIGH": [
+        0.8819181460617638,
+        0.9186115124655534,
+        0.8925212792851915,
+        0.9201337008503826,
+        0.9157442434398044
+      ],
+      "U5": 0.9201337008503826,
+      "M5": 0.905785776420539,
+      "STD5": 0.015589382085967687,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.11881401353625343,
+        "IEEE39_2_10": 0.05480105638853981,
+        "NPCC140_0_2": 0.04985770633129832,
+        "NPCC140_2_10": 0.019605404731534028
+      },
+      "boundary_status": "NOT_AT_BOUNDARY",
+      "summary_sha256": "bd41a762f14d6059a5fc175fac67d0655fd51a189143e1d80e8d15297cb512d0"
+    },
+    "A5_NO_PHYSICAL": {
+      "epoch": 47,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\A5_NO_PHYSICAL\\epoch_047_model.pt",
+      "checkpoint_sha256": "de43f892434acd68974ad4dd3b3ecf99c63ae83e8822df415a4689666a8cf43c",
+      "raw_best_epoch": 4,
+      "window_epochs": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "window_S_HIGH": [
+        0.929386150551418,
+        0.9451275807113496,
+        0.9098093108761558,
+        0.9262043485717333,
+        0.9135166856878407
+      ],
+      "U5": 0.9451275807113496,
+      "M5": 0.9248088152796996,
+      "STD5": 0.012555867656968773,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.11496467222707452,
+        "IEEE39_2_10": 0.05547613165717688,
+        "NPCC140_0_2": 0.050393574638502296,
+        "NPCC140_2_10": 0.022931833375027147
+      },
+      "boundary_status": "NOT_AT_BOUNDARY",
+      "summary_sha256": "2a474cb43a29586720ba40683413404b7e6f1bba1921149d2821ea78bb6d65bb"
+    },
+    "A6_PRE_EVENT": {
+      "epoch": 56,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\PAPER_FORMAL_E60_RECOVERY_V1\\A6_PRE_EVENT\\epoch_056_model.pt",
+      "checkpoint_sha256": "9f9be7306b831226b68c20169e5e4daa90aa1352f4d0dbc661a928c85119eec9",
+      "raw_best_epoch": 60,
+      "window_epochs": [
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "window_S_HIGH": [
+        0.8495396771111394,
+        0.8425876749211811,
+        0.9044623753440538,
+        0.8399145057967589,
+        0.8366032294228471
+      ],
+      "U5": 0.9044623753440538,
+      "M5": 0.8546214925191962,
+      "STD5": 0.02528123603801147,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.11016503719899554,
+        "IEEE39_2_10": 0.06350503813792416,
+        "NPCC140_0_2": 0.044371212917923945,
+        "NPCC140_2_10": 0.020394246891189308
+      },
+      "boundary_status": "TRAINING_BOUNDARY_NOT_RESOLVED",
+      "summary_sha256": "74e033a074d50f5a88f5d3821655d150f2cf498eb5b96aea15edab3b078bc188"
+    },
+    "E1_GRAPHICAL_DEEPONET": {
+      "epoch": 57,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\E1_GRAPHICAL_DEEPONET\\epoch_057_model.pt",
+      "checkpoint_sha256": "8ee23d3142cd67b5d352c798885e01a6f2aea81be03b9125d3f94d270e8146a3",
+      "raw_best_epoch": 37,
+      "window_epochs": [
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "window_S_HIGH": [
+        0.9449202541572365,
+        0.9325386477848596,
+        0.9478980821460017,
+        0.9391393357241747,
+        0.9494501579767574
+      ],
+      "U5": 0.9494501579767574,
+      "M5": 0.9427892955578059,
+      "STD5": 0.006219417330788238,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.10872342875818668,
+        "IEEE39_2_10": 0.04944885338862677,
+        "NPCC140_0_2": 0.049875408788073616,
+        "NPCC140_2_10": 0.038136467887447525
+      },
+      "boundary_status": "PLATEAU/OSCILLATION",
+      "summary_sha256": "0040125a690bce545ea1e0d0fcd996377263f04f4fa143dec1ab8bf8f4788b8b"
+    },
+    "E2_GAT_H128": {
+      "epoch": 52,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\E2_GAT_H128\\epoch_052_model.pt",
+      "checkpoint_sha256": "0a21217f6b9eaccb6a84d84885c91efe15931ede7bce1f2f2ce1e3d27d2cd73d",
+      "raw_best_epoch": 57,
+      "window_epochs": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "window_S_HIGH": [
+        0.8972368245449808,
+        0.9125822944623658,
+        0.913412872622666,
+        0.9569706735516584,
+        0.9045445074907958
+      ],
+      "U5": 0.9569706735516584,
+      "M5": 0.9169494345344935,
+      "STD5": 0.020860239512493214,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.11249009065603363,
+        "IEEE39_2_10": 0.05940237091128988,
+        "NPCC140_0_2": 0.04417329598313812,
+        "NPCC140_2_10": 0.025291364389510438
+      },
+      "boundary_status": "NOT_AT_BOUNDARY",
+      "summary_sha256": "155330338ffbce10814c4d360ac58e7f088ee860adcbcb666f680115c950b7fa"
+    },
+    "E3_GCN_H128": {
+      "epoch": 58,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\PAPER_FORMAL_E60_RECOVERY_V1\\E3_GCN_H128\\epoch_058_model.pt",
+      "checkpoint_sha256": "682d7c5015a5f935f07049dbf49d40fe5bf5207174adff3ae223d477b5ceddd4",
+      "raw_best_epoch": 4,
+      "window_epochs": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "window_S_HIGH": [
+        0.880089353007445,
+        0.8917218443354296,
+        0.8698750785572387,
+        0.8841709536241509,
+        0.8639664151301181
+      ],
+      "U5": 0.8917218443354296,
+      "M5": 0.8779647289308764,
+      "STD5": 0.009936646407078566,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.11424847276661523,
+        "IEEE39_2_10": 0.05440199892024515,
+        "NPCC140_0_2": 0.04661206894554094,
+        "NPCC140_2_10": 0.020193427543219865
+      },
+      "boundary_status": "TRAINING_BOUNDARY_NOT_RESOLVED",
+      "summary_sha256": "8c3ad3f246cb25c5b134e81e089846df4c800fea8850a0ad1b373259f1ea59f9"
+    },
+    "E4_UGCN": {
+      "epoch": 54,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\E4_UGCN\\epoch_054_model.pt",
+      "checkpoint_sha256": "ea7a094a216eec075e2703e93b870df8e27c81c934077e3aedec11e206f77c9d",
+      "raw_best_epoch": 56,
+      "window_epochs": [
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "window_S_HIGH": [
+        0.7083662835785336,
+        0.8685787032164907,
+        0.8397267822147556,
+        0.8227333648844912,
+        0.6858274124339365
+      ],
+      "U5": 0.8685787032164907,
+      "M5": 0.7850465092656416,
+      "STD5": 0.07363714409181413,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.10129355855504675,
+        "IEEE39_2_10": 0.045068977076608424,
+        "NPCC140_0_2": 0.045190235920144664,
+        "NPCC140_2_10": 0.029965099779057862
+      },
+      "boundary_status": "NOT_AT_BOUNDARY",
+      "summary_sha256": "ffc745759ffef26abceae7b6ecc489d6bd9feb61d728cad0102a4c9ffe74b0ca"
+    },
+    "E5_GAT_H384": {
+      "epoch": 55,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\E5_GAT_H384\\epoch_055_model.pt",
+      "checkpoint_sha256": "40afe2c0f0f3a6b6b6330e6bbe7cca305811460f3bba35d3cf30d39b5bcdfff9",
+      "raw_best_epoch": 59,
+      "window_epochs": [
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "window_S_HIGH": [
+        0.7820522898514433,
+        0.7795494144451516,
+        0.7710024091921887,
+        0.7869185074412092,
+        0.7737504400812663
+      ],
+      "U5": 0.7869185074412092,
+      "M5": 0.7786546122022517,
+      "STD5": 0.005713912216365373,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.10582942528871692,
+        "IEEE39_2_10": 0.05031554675544664,
+        "NPCC140_0_2": 0.03572575756426223,
+        "NPCC140_2_10": 0.018393385265518838
+      },
+      "boundary_status": "NOT_AT_BOUNDARY",
+      "summary_sha256": "d0081352446aeddf9f40bad41949d75709662ee1d43aaf49cdc9eb5eb5f2ad09"
+    },
+    "E6_GCN_H384": {
+      "epoch": 55,
+      "checkpoint": "F:\\wang\\GNN\\codex_archive_20260730\\lunwen\\结果\\E6_GCN_H384\\epoch_055_model.pt",
+      "checkpoint_sha256": "ba83709b58b6a20e26de3779e56e3c9a71be570ce5a4d834fc217c15bb499301",
+      "raw_best_epoch": 57,
+      "window_epochs": [
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "window_S_HIGH": [
+        0.7886043464959296,
+        0.8131663075118295,
+        0.8050423651725649,
+        0.8038690261115327,
+        0.7803726565897857
+      ],
+      "U5": 0.8131663075118295,
+      "M5": 0.7982109403763286,
+      "STD5": 0.01194015342885786,
+      "core_endpoints": {
+        "IEEE39_0_2": 0.10505613266512791,
+        "IEEE39_2_10": 0.05180515907363323,
+        "NPCC140_0_2": 0.0380607678506379,
+        "NPCC140_2_10": 0.021337686291938832
+      },
+      "boundary_status": "NOT_AT_BOUNDARY",
+      "summary_sha256": "089ebc4ef46b85c2c4b151c32d534e1adc42efe92943f59e4f28388ca7274c97"
+    }
+  }
+}

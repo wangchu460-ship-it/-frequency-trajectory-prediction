@@ -1,0 +1,285 @@
+{
+  "status": "PASS",
+  "passes": [
+    {
+      "model": "G0_BALANCED",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 53,
+      "prediction_sha256": "e2d644c1533393225eb2532ff2f836f0e37fb260208210fbb482baeee7c949b4"
+    },
+    {
+      "model": "G0_BALANCED",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 53,
+      "prediction_sha256": "72027b4eb6c4f2b2393433080423f3fb7f88203ccdee266d56346d5f24538812"
+    },
+    {
+      "model": "G0_BALANCED",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 53,
+      "prediction_sha256": "ccb433ccbdeff6657a00344ee9f9406e558462ce3c3fb8346fd6555ba29b80e9"
+    },
+    {
+      "model": "A1_NO_BALANCE",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 53,
+      "prediction_sha256": "c484218fec0c0bd71cb2b95aa426c4b921d90039f2f0c082547cc7089b987503"
+    },
+    {
+      "model": "A1_NO_BALANCE",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 53,
+      "prediction_sha256": "fe2a193150712369d8515ef0ffcb4c176cac77eeac94676e6d60e72132923b2b"
+    },
+    {
+      "model": "A1_NO_BALANCE",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 53,
+      "prediction_sha256": "7bbf1e4d12d944e1a52348924f88af3ef6eb35abf349ea18599216353a685878"
+    },
+    {
+      "model": "A2_NO_SPATIAL",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 32,
+      "prediction_sha256": "05abc3a587db7985ef6d87ecbdc97c451ae8a8d365920134cd7f53854fc0ed62"
+    },
+    {
+      "model": "A2_NO_SPATIAL",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 32,
+      "prediction_sha256": "57ecf490b5ad2e3e00607514ecbcc3af72b5c2da63c6f568672196e88a1e1648"
+    },
+    {
+      "model": "A2_NO_SPATIAL",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 32,
+      "prediction_sha256": "c5077428f89a52343d3224b7a73e4ec7c136d29cd654e019a10c0dac7de8edef"
+    },
+    {
+      "model": "A3_F_ONLY",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 44,
+      "prediction_sha256": "5acd7436aec14fd6b53e9edc92f358d1ca1eeb623f00f12a1ebcb98634c0a250"
+    },
+    {
+      "model": "A3_F_ONLY",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 44,
+      "prediction_sha256": "68e562b48fdcb5367419590a8eb9a4ba68ab60f272469488faac8e000368d591"
+    },
+    {
+      "model": "A3_F_ONLY",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 44,
+      "prediction_sha256": "e14219c5d628dd656211d9306179188954a2cbac6f0221ca98dcf7f7b7ab4061"
+    },
+    {
+      "model": "A4_L_ONLY",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 26,
+      "prediction_sha256": "90cc3a46365aa6e3e827b294846d89fd8bf9576e8bea50748d5d68f37ccd262f"
+    },
+    {
+      "model": "A4_L_ONLY",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 26,
+      "prediction_sha256": "0ac41def183023ca2f76df3ae710822a22e8c5e9055afa591d9619a5f37165a8"
+    },
+    {
+      "model": "A4_L_ONLY",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 26,
+      "prediction_sha256": "7973d9cb235a91788093db3371141da4cac52963fb48628e4b063fc9c136ae76"
+    },
+    {
+      "model": "A5_NO_PHYSICAL",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 47,
+      "prediction_sha256": "9819c475dec733b215b57233c4faf64acab569e2dc139b6da55a7e9721e67884"
+    },
+    {
+      "model": "A5_NO_PHYSICAL",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 47,
+      "prediction_sha256": "96373b18a53cfb738cd0474836ac0419c5b4e63620eb6d27df19d97e0d07ca5f"
+    },
+    {
+      "model": "A5_NO_PHYSICAL",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 47,
+      "prediction_sha256": "a0af5273dc673949a5ebe973409d15dfdef0ace63d3ee4664897abb95b8b71da"
+    },
+    {
+      "model": "A6_PRE_EVENT",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 56,
+      "prediction_sha256": "77978ce3b2bdd2715b1e300d4d671d2a5f5b0ac1d6a5849a778fad2da441b92c"
+    },
+    {
+      "model": "A6_PRE_EVENT",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 56,
+      "prediction_sha256": "cc5cc35d945bd048680f79f0f7fa9d673986e38d7cef1205dee9d9ac62daff9a"
+    },
+    {
+      "model": "A6_PRE_EVENT",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 56,
+      "prediction_sha256": "5e3e70d2123b6030ca843328240e330b8fc36bcaed174f7b469180b7d73a90ae"
+    },
+    {
+      "model": "E1_GRAPHICAL_DEEPONET",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 57,
+      "prediction_sha256": "d283fb85da3c25c86a1df49c4c59725060015f706de76ea9529afc8a162a4911"
+    },
+    {
+      "model": "E1_GRAPHICAL_DEEPONET",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 57,
+      "prediction_sha256": "0a7cefca19f8e6ea46b615056fbb1d1e7027e6be805b24a1db5aa773cf3d22b7"
+    },
+    {
+      "model": "E1_GRAPHICAL_DEEPONET",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 57,
+      "prediction_sha256": "80ac72e5d41b0561d1a5014849f2f77a268297e599cb2016ccb4e201d88e2380"
+    },
+    {
+      "model": "E2_GAT_H128",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 52,
+      "prediction_sha256": "d2dec530c0a2d3e0ff2eacdadd207c1a4e7e547f0731e2bf6fd91c77ca6274dc"
+    },
+    {
+      "model": "E2_GAT_H128",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 52,
+      "prediction_sha256": "888403e0ca782e3ec21c81c1b7fae34d1a4e520af0fec40554af90fddff28906"
+    },
+    {
+      "model": "E2_GAT_H128",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 52,
+      "prediction_sha256": "f5b5f385d9cd4cfb9b9da8da5b7775f56ea3f25a1431da8cda08a2a6f5770e36"
+    },
+    {
+      "model": "E3_GCN_H128",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 58,
+      "prediction_sha256": "2a587da40bcdb6796f9b104261c6e6c4bf7be593b37554d9470044c8c4de445e"
+    },
+    {
+      "model": "E3_GCN_H128",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 58,
+      "prediction_sha256": "1fa1a9e730a884df4e5f84e8cafa06ea185daa6805f078b640dbb83240c6f728"
+    },
+    {
+      "model": "E3_GCN_H128",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 58,
+      "prediction_sha256": "f850a2ec6ef7e493b0a203ed7d3f8e3a63d2de9b5c8e5801a174b22c2f4656c4"
+    },
+    {
+      "model": "E4_UGCN",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 54,
+      "prediction_sha256": "04680fdc80394267681cadb614a477b7b49cf5bd3c7b6681db19cc966012e56c"
+    },
+    {
+      "model": "E4_UGCN",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 54,
+      "prediction_sha256": "fa789037d70a645ce5cccb11d12253c41ab4e1ab61363fdaee01ad882aa36f22"
+    },
+    {
+      "model": "E4_UGCN",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 54,
+      "prediction_sha256": "95d54915a975fe3e9ff8f44472753dfb5e956b0605703d859ede31fdb21ad738"
+    },
+    {
+      "model": "E5_GAT_H384",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 55,
+      "prediction_sha256": "5bed1af2e7d75f1245a09118b036929c5fb2f99c95f5ca35189446a4519aa6b6"
+    },
+    {
+      "model": "E5_GAT_H384",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 55,
+      "prediction_sha256": "6f0b299c6da96e9988dd268474a66b5919f79851a6835e0aeb9c53993ce43ce9"
+    },
+    {
+      "model": "E5_GAT_H384",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 55,
+      "prediction_sha256": "295b40b4a5eadef8c6f43e4c4424a8a3a9cde315cb00705a81033f83ae9dafb1"
+    },
+    {
+      "model": "E6_GCN_H384",
+      "dataset": "validation",
+      "n_samples": 1000,
+      "epoch": 55,
+      "prediction_sha256": "3286f1ed056884396c9713d54641aa43db67bb08ae49c08339f103db8b496c9d"
+    },
+    {
+      "model": "E6_GCN_H384",
+      "dataset": "test",
+      "n_samples": 1000,
+      "epoch": 55,
+      "prediction_sha256": "348037aac9e941a3b3a9eca7042912d5631366a9b4c114fea938d131548fa04e"
+    },
+    {
+      "model": "E6_GCN_H384",
+      "dataset": "wecc1600",
+      "n_samples": 1600,
+      "epoch": 55,
+      "prediction_sha256": "d0f6df6728f849a8f2cf9ee783a8c4dd8615765cf52b2b277fadb141093e435c"
+    }
+  ],
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20260912,
+  "intervals": "nominal endpoint-wise; no multiplicity correction; one training seed",
+  "test_primary": 1000,
+  "wecc_primary": 1402,
+  "wecc_risk": 198,
+  "freeze_sha256": "5d856180b2befb3e3554a6b9b2e25d20b500fccfb38f39091a710a90f1d1cb8d"
+}

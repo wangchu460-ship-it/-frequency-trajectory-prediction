@@ -1,0 +1,16 @@
+{
+  "version": "REPAIRED_F_REUSE_LOCK_V1",
+  "formal_files": {
+    "data/freeze/controller_normalization.json": "bdaf2d2a0b469226406b2605a663a5606d6b8d36f827d47f6915f8e2a482f155",
+    "data/freeze/LOCK.json": "1885e11bca3d561b08020ba5fde0ecb5a8fc46b3b61e1a9e78673c2f4db0541e",
+    "data/freeze/normalization.json": "f4bb33349bc7a7a229e93628f5609c96d4cbe06e3be112723aeff36acb3c3a5d",
+    "data/freeze/train.json": "1e6f0dab5f02b9770c9f5d98caeeaa1ab2a2d04c92050e6bb1789103381f6e6f",
+    "data/freeze/validation.json": "48d15e3543f8fd16c784b73f0adfaf015d574f765239d4c33d12f23e9490a53e",
+    "data/EVALUATION_METADATA.json": "55e49ba8d3dbb78c97907a675a4a086e2e6a1b3a4456d1c72befc2eabdfff6e3"
+  },
+  "control_files": {
+    "INPUT_INDEX.json": "c88197ea6bc8a06b0c55071e9590efcbd6875db1380afaa2d782e8e5f2ccc15c",
+    "CONTRACT.json": "1c3663b3d7d37d6b0dc9d6b238103d286f9be6ddccc4d0428d39aff91b5e2c12",
+    "FINAL_AUDIT.json": "2b31e2c6f7a4ff922c1997d377c52e575e43c857199db21b86016fcd41127961"
+  }
+}

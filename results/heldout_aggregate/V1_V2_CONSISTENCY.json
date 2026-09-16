@@ -1,0 +1,352 @@
+[
+  {
+    "model": "G0_BALANCED",
+    "dataset": "test",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 130098,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 4.962911646977375e-06,
+      "differential_rmse": 4.841414815714984e-06,
+      "nadir_error": 3.814697265625e-06,
+      "max_abs_rocof_error": 3.576271438987533e-05,
+      "pair_rmse": 3.9494026444764074e-06,
+      "spread_mae": 4.354305565446026e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\G0_BALANCED\\test"
+  },
+  {
+    "model": "G0_BALANCED",
+    "dataset": "wecc1600",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 338346,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 4.785119963379714e-06,
+      "differential_rmse": 4.609435195312983e-06,
+      "nadir_error": 2.86102294921875e-06,
+      "max_abs_rocof_error": 3.576282097128569e-05,
+      "pair_rmse": 1.4684801672437686e-06,
+      "spread_mae": 3.1746923916387004e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\G0_BALANCED\\wecc1600"
+  },
+  {
+    "model": "A1_NO_BALANCE",
+    "dataset": "test",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 130098,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 4.501622294483809e-06,
+      "differential_rmse": 4.3559650499958025e-06,
+      "nadir_error": 2.6226043701171875e-06,
+      "max_abs_rocof_error": 4.172316678818788e-05,
+      "pair_rmse": 1.829970888600485e-06,
+      "spread_mae": 1.5671364650415853e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\A1_NO_BALANCE\\test"
+  },
+  {
+    "model": "A1_NO_BALANCE",
+    "dataset": "wecc1600",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 338346,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 4.200199907433699e-06,
+      "differential_rmse": 4.165878559891922e-06,
+      "nadir_error": 4.76837158203125e-06,
+      "max_abs_rocof_error": 2.682211572846427e-05,
+      "pair_rmse": 2.436791522786308e-06,
+      "spread_mae": 4.254281520843506e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\A1_NO_BALANCE\\wecc1600"
+  },
+  {
+    "model": "A2_NO_SPATIAL",
+    "dataset": "test",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 130098,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 3.543919752324598e-06,
+      "differential_rmse": 3.4186059041374506e-06,
+      "nadir_error": 3.3974647521972656e-06,
+      "max_abs_rocof_error": 3.576282097128569e-05,
+      "pair_rmse": 3.1235405955065687e-06,
+      "spread_mae": 3.136740997611298e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\A2_NO_SPATIAL\\test"
+  },
+  {
+    "model": "A2_NO_SPATIAL",
+    "dataset": "wecc1600",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 338346,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 6.967033482352392e-06,
+      "differential_rmse": 6.685145698792638e-06,
+      "nadir_error": 5.9604644775390625e-06,
+      "max_abs_rocof_error": 3.576282097128569e-05,
+      "pair_rmse": 1.91040396280151e-06,
+      "spread_mae": 3.3543445168149333e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\A2_NO_SPATIAL\\wecc1600"
+  },
+  {
+    "model": "A3_F_ONLY",
+    "dataset": "test",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 130098,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 2.9953739180133e-06,
+      "differential_rmse": 2.933613272526614e-06,
+      "nadir_error": 2.86102294921875e-06,
+      "max_abs_rocof_error": 3.576282097128569e-05,
+      "pair_rmse": 1.8393007810146855e-06,
+      "spread_mae": 3.222934901181418e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\A3_F_ONLY\\test"
+  },
+  {
+    "model": "A3_F_ONLY",
+    "dataset": "wecc1600",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 338346,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 3.835853790157273e-06,
+      "differential_rmse": 3.787333766602785e-06,
+      "nadir_error": 3.4570693969726562e-06,
+      "max_abs_rocof_error": 2.086164556658332e-05,
+      "pair_rmse": 1.4906175538342836e-06,
+      "spread_mae": 3.1659379597925863e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\A3_F_ONLY\\wecc1600"
+  },
+  {
+    "model": "A4_L_ONLY",
+    "dataset": "test",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 130098,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 2.0134170060082113e-06,
+      "differential_rmse": 1.965168815232232e-06,
+      "nadir_error": 2.1457672119140625e-06,
+      "max_abs_rocof_error": 2.9802350809404743e-05,
+      "pair_rmse": 1.435314937570098e-06,
+      "spread_mae": 2.17612832731362e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\A4_L_ONLY\\test"
+  },
+  {
+    "model": "A4_L_ONLY",
+    "dataset": "wecc1600",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 338346,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 2.3633103172215897e-06,
+      "differential_rmse": 2.2458207524778118e-06,
+      "nadir_error": 1.8477439880371094e-06,
+      "max_abs_rocof_error": 2.3841880647523794e-05,
+      "pair_rmse": 8.424438979193205e-07,
+      "spread_mae": 2.262927591534236e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\A4_L_ONLY\\wecc1600"
+  },
+  {
+    "model": "A5_NO_PHYSICAL",
+    "dataset": "test",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 130098,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 1.0974612214553758e-06,
+      "differential_rmse": 1.0659858098449604e-06,
+      "nadir_error": 1.430511474609375e-06,
+      "max_abs_rocof_error": 2.9802350809404743e-05,
+      "pair_rmse": 3.5323394254049845e-07,
+      "spread_mae": 5.086883905214279e-07
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\A5_NO_PHYSICAL\\test"
+  },
+  {
+    "model": "A5_NO_PHYSICAL",
+    "dataset": "wecc1600",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 338346,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 1.6617468603374874e-06,
+      "differential_rmse": 1.59908162167266e-06,
+      "nadir_error": 1.430511474609375e-06,
+      "max_abs_rocof_error": 3.576282097128569e-05,
+      "pair_rmse": 6.166195054557733e-07,
+      "spread_mae": 9.51066613019691e-07
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\A5_NO_PHYSICAL\\wecc1600"
+  },
+  {
+    "model": "A6_PRE_EVENT",
+    "dataset": "test",
+    "status": "NO_SAME_CHECKPOINT_V1_REFERENCE"
+  },
+  {
+    "model": "A6_PRE_EVENT",
+    "dataset": "wecc1600",
+    "status": "NO_SAME_CHECKPOINT_V1_REFERENCE"
+  },
+  {
+    "model": "E1_GRAPHICAL_DEEPONET",
+    "dataset": "test",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 130098,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 1.4539720554207491e-06,
+      "differential_rmse": 1.4214569294956902e-06,
+      "nadir_error": 1.1920928955078125e-06,
+      "max_abs_rocof_error": 2.3841880647523794e-05,
+      "pair_rmse": 7.623671489653816e-07,
+      "spread_mae": 8.062925189733505e-07
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\E1_GRAPHICAL_DEEPONET\\test"
+  },
+  {
+    "model": "E1_GRAPHICAL_DEEPONET",
+    "dataset": "wecc1600",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 338346,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 1.0584341503250272e-06,
+      "differential_rmse": 1.0114077169109947e-06,
+      "nadir_error": 1.1920928955078125e-06,
+      "max_abs_rocof_error": 2.6822035792406496e-05,
+      "pair_rmse": 6.717291367586142e-07,
+      "spread_mae": 9.326730081582468e-07
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\E1_GRAPHICAL_DEEPONET\\wecc1600"
+  },
+  {
+    "model": "E2_GAT_H128",
+    "dataset": "test",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 130098,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 2.680335654758892e-06,
+      "differential_rmse": 2.616241157937793e-06,
+      "nadir_error": 2.6226043701171875e-06,
+      "max_abs_rocof_error": 3.576282097128569e-05,
+      "pair_rmse": 1.1096260537080127e-06,
+      "spread_mae": 1.485645771737154e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\E2_GAT_H128\\test"
+  },
+  {
+    "model": "E2_GAT_H128",
+    "dataset": "wecc1600",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 338346,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 2.7051063162808475e-06,
+      "differential_rmse": 2.6615565102972027e-06,
+      "nadir_error": 2.384185791015625e-06,
+      "max_abs_rocof_error": 1.7881410485642846e-05,
+      "pair_rmse": 1.2216203015835703e-06,
+      "spread_mae": 2.1701678631913524e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\E2_GAT_H128\\wecc1600"
+  },
+  {
+    "model": "E3_GCN_H128",
+    "dataset": "test",
+    "status": "NO_SAME_CHECKPOINT_V1_REFERENCE"
+  },
+  {
+    "model": "E3_GCN_H128",
+    "dataset": "wecc1600",
+    "status": "NO_SAME_CHECKPOINT_V1_REFERENCE"
+  },
+  {
+    "model": "E4_UGCN",
+    "dataset": "test",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 130098,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 9.745436280184094e-08,
+      "differential_rmse": 0.0,
+      "nadir_error": 0.0,
+      "max_abs_rocof_error": 0.0,
+      "pair_rmse": 0.0,
+      "spread_mae": 0.0
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\E4_UGCN\\test"
+  },
+  {
+    "model": "E4_UGCN",
+    "dataset": "wecc1600",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 338346,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 1.3134194176700476e-07,
+      "differential_rmse": 0.0,
+      "nadir_error": 0.0,
+      "max_abs_rocof_error": 0.0,
+      "pair_rmse": 0.0,
+      "spread_mae": 0.0
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\E4_UGCN\\wecc1600"
+  },
+  {
+    "model": "E5_GAT_H384",
+    "dataset": "test",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 130098,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 1.3743244302588664e-06,
+      "differential_rmse": 1.3413952202334656e-06,
+      "nadir_error": 1.9073486328125e-06,
+      "max_abs_rocof_error": 4.731118784795374e-05,
+      "pair_rmse": 1.1351539856985227e-06,
+      "spread_mae": 1.0869465767449071e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\E5_GAT_H384\\test"
+  },
+  {
+    "model": "E5_GAT_H384",
+    "dataset": "wecc1600",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 338346,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 1.406550063975942e-06,
+      "differential_rmse": 1.3646209477968796e-06,
+      "nadir_error": 1.1920928955078125e-06,
+      "max_abs_rocof_error": 4.619359212654217e-05,
+      "pair_rmse": 8.005750680162294e-07,
+      "spread_mae": 1.3761222366071024e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\E5_GAT_H384\\wecc1600"
+  },
+  {
+    "model": "E6_GCN_H384",
+    "dataset": "test",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 130098,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 1.5229037504393972e-06,
+      "differential_rmse": 1.4632989815410724e-06,
+      "nadir_error": 1.3113021850585938e-06,
+      "max_abs_rocof_error": 3.6321587987275805e-05,
+      "pair_rmse": 1.189488974873143e-06,
+      "spread_mae": 1.2176111341410945e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\E6_GCN_H384\\test"
+  },
+  {
+    "model": "E6_GCN_H384",
+    "dataset": "wecc1600",
+    "status": "COMPARED_SAME_CHECKPOINT",
+    "n_records": 338346,
+    "maximum_absolute_metric_differences": {
+      "trajectory_rmse": 3.5360741454937283e-06,
+      "differential_rmse": 3.3913553436626387e-06,
+      "nadir_error": 2.86102294921875e-06,
+      "max_abs_rocof_error": 4.172325227536078e-05,
+      "pair_rmse": 1.9166636393563863e-06,
+      "spread_mae": 3.5537406803953786e-06
+    },
+    "source": "C:\\Users\\wangc\\Documents\\Codex\\2026-09-11\\g0-current-mainline-handoff-20260911-v1\\outputs\\PAPER_FORMAL_HELDOUT_EVALUATION_V1\\FINAL_E60_EVIDENCE\\E6_GCN_H384\\wecc1600"
+  }
+]
