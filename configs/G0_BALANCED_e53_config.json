@@ -1,0 +1,37 @@
+{
+  "version": "CROSS_SYSTEM_BALANCE_AND_EVIDENCE_V1",
+  "arm": "G0",
+  "seed": 789,
+  "batch_size": 8,
+  "per_system_batch": 4,
+  "optimizer_steps_per_epoch": 875,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1.0,
+  "precision": "FP32",
+  "lambda_spatial": 1.7879867681635668,
+  "loss_windows": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      15
+    ]
+  ],
+  "post_f": true,
+  "train_n": 7000,
+  "validation_n": 1000,
+  "model_init_stream": 789,
+  "sampler_streams": {
+    "IEEE39": 1789039,
+    "NPCC140": 1789140
+  },
+  "dropout_stream": "789000000+epoch*1000+step",
+  "initial_sha256": "86ebf3f9e795534404b0e1a5c2a7b94d262ca16970b62fb53a17c5adfc215704",
+  "topology_sha256": "e212fef6a09109294e7806d8451034386b2a324a14254b92e0bf065b4512db01",
+  "test_reads": 0,
+  "ood_reads": 0,
+  "wecc_reads": 0
+}

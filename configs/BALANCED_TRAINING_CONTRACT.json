@@ -1,0 +1,36 @@
+{
+  "version": "CROSS_SYSTEM_BALANCE_AND_EVIDENCE_V1",
+  "models": ["G0_BALANCED", "LOCAL_BALANCED"],
+  "seed": 789,
+  "batch": {"total": 8, "IEEE39": 4, "NPCC140": 4},
+  "sampler": "independent shuffled queue per system; reshuffle/cycle only after exhaustion",
+  "optimizer_steps_per_epoch": 875,
+  "old_optimizer_steps_per_epoch": 875,
+  "system_outer_loss": "0.5*mean(existing_scene_loss|IEEE39)+0.5*mean(existing_scene_loss|NPCC140)",
+  "existing_scene_loss": "OLD + 1.7879867681635668 * mean(spatial_HIGH_0_2, spatial_HIGH_2_15)",
+  "unchanged": {
+    "architecture": true,
+    "decoder": true,
+    "HIGH_definition": true,
+    "loss_content": true,
+    "lambda": true,
+    "target_unit_Hz": true,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "precision": "FP32",
+    "scheduler": null,
+    "POST_F": true
+  },
+  "initialization": "same frozen initial_seed789.pt for all shared tensors; LOCAL uses fork_rng for added parameters",
+  "rng_streams": {
+    "model_initialization": 789,
+    "sampler_IEEE39": 1789039,
+    "sampler_NPCC140": 1789140,
+    "dropout": "789000000+epoch*1000+step"
+  },
+  "validation": "complete frozen Validation1000 every epoch",
+  "initial_horizon": 50,
+  "extension": "both models synchronously +10 if either frozen V2 stable center is e(end-4)..e(end-2) and its last-10 S_HIGH slope<0 and last-5 mean<previous-5 mean; max e80",
+  "forbidden_reads": ["Test", "OOD", "WECC179"]
+}
